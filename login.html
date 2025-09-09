@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <div id="wrapper">
+      <header class="header">
+        <div class="clearfix"></div>
+        <nav class="navbar">
+          <a href="index.html">HOME</a>
+          <a href="#">DESTINATIONS</a>
+          <a href="#">BOARD</a>
+          <a href="#">ABOUT</a>
+          <a href="#">CONTACT</a>
+          <a href="login.html">SIGN IN</a>
+        </nav>
+        <div class="header-content">
+          <h1>WANDERLUST CHRONICLES</h1>
+          <p>EXPLORE THE WORLD, ONE JOURNEY AT A TIME</p>
+        </div>
+        <div id="searchbar">
+          <label for="search">
+            <input type="text" id="search" placeholder="Search...">
+            <button type="submit" id="search-btn">| search</button>
+          </label>
+        </div>
+      </header>
+      
+      <main class="login-main-content"> <div class="login-container">
+          <form class="login-form">
+            <h2>로그인</h2>
+            <div class="input-group">
+              <label for="username">아이디</label>
+              <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+              <label for="password">비밀번호</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-btn">로그인</button>
+            <div class="links">
+              <a href="#">비밀번호 찾기</a> | <a href="#">회원가입</a>
+            </div>
+          </form>
+        </div>
+      </main>
+      
+    </div>
+</body>
+</html>
